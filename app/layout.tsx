@@ -1,9 +1,8 @@
-// app/layout.tsx
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { QuizProvider } from "@/context/QuizContext"; // Import our provider
+import { QuizProvider } from "@/context/QuizContext"; 
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-black`}>
-        {/* Wrap the children with QuizProvider */}
+        {/* providing the context */}
         <QuizProvider>{children}</QuizProvider>
       </body>
     </html>

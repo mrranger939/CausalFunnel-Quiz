@@ -4,7 +4,7 @@
 
 This is a simple, modern, and fully responsive quiz application built as part of the hiring process for the Software Engineer Intern position at CausalFunnel. The application fetches questions from an external API and provides an interactive quiz experience with a timer, question navigation, and a detailed final report.
 
-**Live Demo:** ``
+**Live Demo:** `https://causal-funnel-quiz-xi.vercel.app/`
 
 -----
 
